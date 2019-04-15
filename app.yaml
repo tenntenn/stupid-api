@@ -1,0 +1,7 @@
+runtime: go112
+
+service: temperature
+
+handlers:
+- url: /.*
+  script: auto
